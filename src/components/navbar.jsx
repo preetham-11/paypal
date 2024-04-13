@@ -51,8 +51,8 @@ const Navbar = () => {
       <div
         className={
           !nav
-            ? "fixed left-[-100%] top-32 md:hidden w-[60%] h-full bg-white border-gray-800 ease-in-out duration-500"
-            : "fixed left-0 top-32 md:hidden w-[60%] h-full bg-white border-gray-800 ease-in-out duration-500"
+            ? "fixed left-[-100%] top-32 md:hidden w-[60%] h-full bg-[#f5f6fb] border-gray-800 ease-in-out duration-500"
+            : "fixed left-0 top-32 md:hidden w-[60%] h-full bg-[#f5f6fb] border-gray-800 ease-in-out duration-500"
         }
       >
         <ul className="pt-3">
